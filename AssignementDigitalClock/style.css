@@ -1,0 +1,61 @@
+	div.container {
+                      width: 75%;
+                      margin: 1px;
+                      border: 10px solid gray;
+                      padding: 1em;
+           			  text-align: center;
+                      background-color: black;
+                      color: white;
+    }
+
+    div.center {
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+    div.div1 {
+          
+          width: 75%;
+          margin: 20px;
+          border: 20px solid gray;
+          padding: 5em;
+			  text-align: center;
+          background-color: black;
+            height:140px;
+          color: white;
+          border-radius: 10px;
+
+    }
+    div.div2 {
+          
+          float: left;
+          width: 30%;
+          margin: 10;
+          border: 0px solid gray;
+          padding: 1px;
+		  text-align: center;
+          background-color: black;
+          height:130px;
+          color: white;
+          font-size: 125px;
+    }
+
+    div.div3 {
+          
+          float: left;
+          width: 5%;
+          margin: 0;
+          border: 0;
+          padding: 1px;
+          text-align: center;
+          background-color: black;
+          height:80px;
+          color: white;
+          font-size: 100px;
+    }
+    
+
+    
