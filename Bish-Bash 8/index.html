@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="sv-SE">
+<head>
+	<meta charset="utf-8">
+	<title>Bish-Bosh 2.0</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+<div class ="container">  
+<header><h1>Bish-Bosh 2.0</h1></header>
+<article>
+<p>Bish-Bosh listar alla tal mellan 1 och loop length. Jämnt delbart talet med Bish value listas Bish, med bosh value listas Bosh och talet delbart jämnt med både bish och bosh  value listas Bish-Bosh. </p>
+        Bish:
+        <input id="lbish" type="number" name="bish" value="3" min="1" max="10">
+        <br>
+        Bosh:
+        <input id="lbosh"type="number" name ="bosh" value="4" min="1" max="10">
+        <br>
+        Loop Length:
+        <input id="llen" type="number" name ="length" value="10" min="1" max="100">
+        <br>
+        <button type="button" onclick ="lFunction()">Submit</button>
+        
+        <p id ="output"></p>
+</article>     
+<script src="bishbosh.js"></script>
+</body>
+</div>
+<footer><p>Copyright &copy; Sami Bhatti</p></footer>
+</html>

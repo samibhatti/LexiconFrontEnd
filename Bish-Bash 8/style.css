@@ -1,0 +1,21 @@
+header, footer {
+            padding: 1em;
+            border: 2px solid gray;
+            color: white;
+            background-color: grey;
+            text-align: center;
+    }
+
+article {
+              
+              border: 0px solid gray;
+              padding: 1em;
+              overflow: hidden;
+    }
+
+    div.container {
+                      width: 100%;
+                      border: 0px solid gray;
+                      align: center;
+                      min-height: 800px;
+      }
