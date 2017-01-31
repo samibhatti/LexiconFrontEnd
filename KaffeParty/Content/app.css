@@ -1,0 +1,241 @@
+﻿
+body {
+    font-family: 'Open Sans', sans-serif;
+    padding: 10px;
+}
+
+footer {
+    background-color: white;
+    color: #add;
+    margin-top: 2px;
+    text-align: center;  
+    border-top: 2px solid black;
+
+}
+
+/*html, body {
+  height: 100%;
+}*/
+ 
+/*.sport-icon-list aside {
+  height: 100vh;
+  display: flex;
+}*/
+
+/*.container-fluid div {
+    border: 2px solid black;
+}*/
+
+.sport-icon-list div {
+    background-color: #101010;
+    text-align: center;
+    /*top:0px;
+    bottom:0px;
+    flex-grow:4;
+    flex-shrink:1;*/
+    /*min-height:2100px;*/
+    border-radius: 5px;
+    padding-top: 40px;
+    padding-left: 10px;
+    min-height:2100px;
+}
+
+.navbar {
+    background-color: #101010;
+    color: darkorange;
+    margin-bottom: 2px;
+    padding: 1px;
+    border-radius: 5px;
+}
+
+.navbar-brand img {
+    width: 250px;
+    height: 60px;
+    border-radius: 3px;
+}
+
+.navbar-inverse .navbar-nav>li> a {
+    color: darkorange;
+}
+
+.range-list {
+    padding-bottom: 40px;
+    padding-top: 40px;
+
+}
+
+.range-list div {
+
+}
+
+.range-list h4 {
+    color: darkorange;
+    font-weight: bold;
+    text-align: left
+}
+
+.range-list img {
+    width: 100%;
+    height: 100%;
+    max-width: 140px;
+    max-height: 60px;
+}
+
+.oss img {
+    width: 60%;
+    height: 60%;
+}
+
+.oss div {
+    height:200px;
+    width: 500px;
+}
+
+.range-title {
+    color:darkblue;
+
+}
+
+/*.sports-icon-list {
+    background-color: #333;
+    padding-bottom: 40px;
+}*/
+
+/*.sports-icon-list a {
+    color: white;
+}
+.sports-icon-list a h6 {
+    margin-top: 2px;
+    margin-bottom: 14px;
+}
+.sports-icon-list img {
+    width: 70px;
+    height: 70px;
+}
+
+.sports-list-top div {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.sport-list-top h4 {
+    margin-left: 30px;
+    margin-right: 30px;
+    display: inline-block;
+}*/
+
+div.img img {
+    width: 100%;
+    height:auto
+}
+
+div.img {
+    margin:5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 180px;
+}
+
+/*div {
+    border:2px Solid black;
+    padding: 0px;
+ }*/
+
+#rig {
+    max-width:900px;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    background-color:#fff;
+}
+#rig li {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    vertical-align:middle;
+    box-sizing:border-box;
+}
+        
+/* The wrapper for each item */
+.rig-cell {
+    margin:1px;
+    box-shadow:0 0 6px rgba(0,0,0,0.3);
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+        
+/* If have the image layer */
+.rig-img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+#rig li:hover .rig-img {
+    transform:scale(1.05);
+}
+        
+/* If have the overlay layer */
+.rig-overlay {
+    position: absolute;
+    display:block;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    background: #333;
+    background-size:50px 50px;
+    opacity:0;
+    filter:alpha(opacity=0);/*For IE6 - IE8*/
+    transition:all 0.6s;
+}
+#rig li:hover .rig-overlay {
+    opacity:0.8;
+}
+
+/* If have captions */
+.rig-text {
+    display:block;
+    padding:0 30px;
+    box-sizing:border-box;
+    position:absolute;
+    left:0;
+    width:100%;
+    text-align:inherit;
+    text-transform:capitalize;
+    font-size:18px;
+    font-weight:bold;
+    font-family: 'Oswald', sans-serif;
+    font-weight:normal!important;
+    top:40%;
+    color:white;
+    opacity:0;
+    filter:alpha(opacity=0);/*For older IE*/
+    transform:translateY(-20px);
+    transition:all .3s;
+}
+#rig li:hover .rig-text {
+    transform:translateY(0px);
+    opacity:0.9;
+}
+
+@media (max-width: 9000px) {
+    #rig li {
+        width:25%;
+    }
+}
+
+@media (max-width: 700px) {
+    #rig li {
+        width:33.33%;
+    }
+}
+
+@media (max-width: 550px) {
+    #rig li {
+        width:50%;
+    }
+}
